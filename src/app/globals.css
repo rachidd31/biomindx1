@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set base font and background - using Tailwind classes */
+body {
+  @apply bg-white dark:bg-black text-neutral-900 dark:text-neutral-100 antialiased;
+  /* Consider adding a specific sans-serif font stack later if needed */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
